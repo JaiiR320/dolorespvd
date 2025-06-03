@@ -1,5 +1,4 @@
 import Carousel from "@/components/carousel";
-import Image from "next/image";
 
 export default function Home() {
   const images = [
@@ -26,7 +25,7 @@ export default function Home() {
           Providence. Dolores features contemporary and regional Mexican
           cuisine from the <Bold>Mixteca</Bold> region of Puebla and
           Oaxaca, drawing inspiration from its many types of Moles, sauces
-          and stews. The beverage program boasts it's strength in México's
+          and stews. The beverage program boasts it&apos;s strength in México&apos;s
           artisanal agave distillates, offering craft cocktails that are a
           compliment to the cuisine.
         </p>

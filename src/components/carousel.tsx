@@ -25,7 +25,7 @@ export default function Carousel({
     }, 5000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [images.length]);
 
   return (
     <div className="relative aspect-[16/9] w-full overflow-hidden">
