@@ -43,8 +43,8 @@ export default function Menu() {
 
 function Banner({ text }: { text: string }) {
   return (
-    <div className="text-dolores flex h-12 w-full items-center justify-center bg-gray-200 p-12 font-bold">
-      <h1 className="text-4xl">{text}</h1>
+    <div className="text-dolores flex h-8 w-full items-center justify-center bg-gray-200 p-8 font-bold lg:h-12 lg:p-12">
+      <h1 className="text-2xl lg:text-4xl">{text}</h1>
     </div>
   );
 }

@@ -4,9 +4,7 @@ export default function Footer() {
       <div className="flex items-center justify-center">
         <p className="text-white">© 2025 Dolores PVD</p>
       </div>
-      <div>
-        
-      </div>
+      <div></div>
     </footer>
   );
 }
